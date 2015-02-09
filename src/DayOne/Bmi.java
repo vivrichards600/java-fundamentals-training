@@ -42,5 +42,4 @@ public class Bmi {
         return weight / (height * height);
     }
 
-
 }
