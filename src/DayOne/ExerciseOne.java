@@ -9,7 +9,6 @@ public class ExerciseOne {
         System.out.println("Hello Mum");
         displayCopyright();
         System.out.println("Hello again");
-
     }
 
     public static void displayCopyright() {
