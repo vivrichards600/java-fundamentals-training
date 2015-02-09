@@ -8,6 +8,8 @@ public class BMI {
         float height = (WellHouseInput.readNumber());
         System.out.print("Enter height:");
         float weight = (WellHouseInput.readNumber());
+
+        //TODO: below calculation isn't working as intended!
         float bmi = weight / (height *  height);
 
         System.out.println("Persons BMI based on a height of " + height + " and weight of " + weight + " is " + bmi);
