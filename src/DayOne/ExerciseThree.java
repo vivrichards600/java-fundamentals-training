@@ -4,6 +4,7 @@ public class ExerciseThree {
 
         public static void main (String [] args) {
 
+            System.out.print("Enter number of coffees:");
             int days= (int)(WellHouseInput.readNumber());
             int delegates = 5;
             int coffees = days * (delegates + 1) * 2;
