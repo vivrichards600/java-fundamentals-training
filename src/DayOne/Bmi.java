@@ -12,7 +12,7 @@ public class Bmi {
         float BMI = getBmi(height, weight);
 
         System.out.println("for height " + height + " and weight " + weight);
-        System.out.println("Initial BMI is " + BMI);
+        System.out.println("Initial Celebrity is " + BMI);
 
         if (BMI > 0) {
             if (BMI < 18.5) System.out.println("You are underweight. Feed!");
@@ -29,7 +29,7 @@ public class Bmi {
             weight -= 2.0f;
             System.out.print("Drop to " + weight + "kgs ... ");
             BMI = getBmi(height, weight);
-            System.out.println("new BMI is " + BMI);
+            System.out.println("new Celebrity is " + BMI);
             if (slims > 10) {
                 System.out.println("Check with a doctore");
                 break;
